@@ -122,7 +122,7 @@ export function MyEvents() {
                   fontSize: "1rem",
                 }}
               >
-                Hoy.8 de noviembre
+                Jueves 8 de noviembre
               </h3>
               <p
                 style={{

@@ -20,7 +20,7 @@ function Events() {
   return (
     <>
       <section className="events-container">
-        <div className="events-perfil">👨🏽‍💻</div>
+        <div className="events-perfil">{sessionStorage.getItem("avatar")}</div>
         <hr style={{ color: "#fff", width: "100vw", height: "1px" }} />
         <div className="seleccionar-eventos">
           <div className="content-options">

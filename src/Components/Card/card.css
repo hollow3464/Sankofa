@@ -307,6 +307,20 @@
   overflow-y: scroll;
 }
 
+.card-profile-new {
+  padding: 1.2rem;
+  width: 100vw;
+  max-width: 23rem;
+  min-height: 10rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
 .text-card-profile-container {
   display: flex;
   flex-direction: column;

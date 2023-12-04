@@ -82,7 +82,7 @@ export default function RegisterForm() {
               />
             </div>
             <div className="register-form-content2">
-              <p style={{ color: "#000" }}>¿Cómo prefieres qué te llamemos?</p>
+              <p style={{ color: "#000" }}>Fecha de nacimiento</p>
               <div className="register-form-row2">
                 <input
                   type="text"

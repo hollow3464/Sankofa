@@ -289,7 +289,7 @@ export function CardProfile({
     <>
       <Link
         to={`${linkTo}`}
-        className="card-profile"
+        className="card-profile-new"
         style={{ backgroundColor: `${color}`, color: `${textColor}` }}
       >
         <div className="text-card-profile-container">
