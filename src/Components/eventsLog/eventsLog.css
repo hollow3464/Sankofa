@@ -1,0 +1,133 @@
+.eventsLog-container {
+    width: 20rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.eventLog-images {
+    width: 16rem;
+    position: relative;
+}
+.component-polygon {
+    width: 20rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(100% 85%,
+                   100% 0%,
+                   0% 15%,
+                    0% 100%);
+}
+
+.building-eventsLog{
+    width: 15rem;
+    position: absolute;
+    left: -6.5rem;
+    bottom: -4rem;
+}
+
+.persons-eventsLog {
+    width: 15rem;
+    position: absolute;
+    right: -0.5rem;
+    bottom: -6.5rem;
+}
+
+
+.eventsLog2-container{
+    width: 20rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.eventLog2-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 19rem;
+    position: relative; 
+}
+
+.person-eventLog2{
+position: absolute;
+right: 0.5rem;
+bottom: -2rem;
+z-index: 3;
+}
+
+.torre-eventLog2{
+    position: absolute;
+    right: 5.3rem;
+    bottom: -2rem;
+    z-index: -1;
+}
+
+.libros-eventlog2{
+    position: absolute;
+    right: 9rem;
+    bottom: -1rem;
+    z-index: 3;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.5rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 5;
+    transform: rotate(-1deg);
+}
+
+.title-text{
+    position: fixed;
+    transform: rotate(1deg);
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 800px){
+    .eventsLog-container{
+        height: 9rem;
+    }
+
+    .eventLog-images {
+        width: 9rem;
+    }
+
+    .component-polygon {
+        width: 13rem;
+        height: 3rem;
+        clip-path: polygon(100% 90%,
+                       100% 0%,
+                       0% 10%,
+                        0% 100%);
+        border-radius: 0.8rem ;
+    }
+
+    .building-eventsLog{
+        width: 10rem;
+        position: absolute;
+        left: -5.5rem;
+        bottom: -2rem;
+        z-index: -1;
+    }
+    
+    .persons-eventsLog {
+        
+        width: 10rem;
+        position: absolute;
+        right: -2rem;
+        bottom: -4rem;
+        z-index: -1;
+    }
+    
+}

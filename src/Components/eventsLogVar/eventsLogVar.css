@@ -1,0 +1,44 @@
+.eventsLogVar-container {
+    width: 50vw;
+    min-width: 16rem;
+    max-width: 20rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.eventLogVar-images {
+    width: 20rem;
+    position: relative;
+}
+.component-polygon-var {
+    width: 50vw;
+    min-width: 20rem;
+    max-width: 20rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem 1rem 1rem 1rem;
+    clip-path: polygon(100% 90%,
+                   100% 0%,
+                   0% 10%,
+                    0% 100%);
+}
+
+.building-eventsLogVar{
+    width: 12rem;
+    position: absolute;
+    left: -2rem;
+    bottom: -2.5rem;
+}
+
+.persons-eventsLogVar {
+    width: 15rem;
+    position: absolute;
+    right: 0rem;
+    bottom: -6.5rem;
+}
+
+

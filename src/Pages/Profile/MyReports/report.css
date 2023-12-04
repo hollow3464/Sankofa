@@ -1,0 +1,42 @@
+.reports-container {
+  width: 100vw;
+  height: 90vh;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.btn-reports {
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 1rem;
+  border: 1px solid azure;
+  color: azure;
+  width: 15rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+
+.report-content {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  overflow-x: scroll;
+  flex-wrap: wrap;
+}
+
+.icon-back-banner{
+  position: absolute;
+  left: 1.5rem;
+  top: 2.5rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}

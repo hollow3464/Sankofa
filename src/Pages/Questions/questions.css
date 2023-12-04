@@ -1,0 +1,120 @@
+.questions-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.question-card-container-1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 2rem;
+    top: 0;
+}
+
+.arrow-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.arrow-2{
+    position: absolute;
+    left: 0;
+    font-size: 2rem;
+}
+
+.arrow-1{
+    position: absolute;
+    right: 0;
+    font-size: 1.7rem;
+}
+
+.text-question-container{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .on-boarding-container-question{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+    }
+
+    .on-boarding-question{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .on-boarding-img{
+        position: absolute;
+        height: 24rem;
+        right: -7rem;
+        bottom: 0;
+    }
+
+    .on-boarding-coment-img{
+        position: absolute;
+        bottom: 20rem;
+        right: 10.5rem;
+    }
+
+    .on-boarding-container-img1, .on-boarding-container-img2{
+        width: 50%;
+    }
+    
+    .on-boarding-container-img1 .btn-card{
+        position: absolute;
+        width: 10.5rem;
+        bottom: 16rem;
+        right: 12.5rem;
+        z-index: 1000;
+    }
+
+    .on-boarding-container-content{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        backdrop-filter: blur(10px);
+        height: 100%;
+        width: 100%;
+    }
+
+    .on-boarding-background{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #fff;
+        opacity: 0.5;
+        z-index: -1;
+    }
+
+    .on-boarding-container-content2 .on-boarding-coment-img{
+        bottom: 10rem;
+        right: 6rem;
+    }
+
+    .on-boarding-container-content2 .btn-card{
+        bottom: 6rem;
+        right: 8.5rem;
+    }
+  }
+
+

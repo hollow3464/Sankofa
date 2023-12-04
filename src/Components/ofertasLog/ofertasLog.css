@@ -1,0 +1,28 @@
+.ofertasLog-container {
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.ofertasLog-images {
+  width: 16rem;
+  position: relative;
+}
+.component-polygon-ofetas {
+  width: 16rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  clip-path: polygon(100% 90%, 100% 0%, 0% 10%, 0% 100%);
+}
+
+.building-ofertasLog {
+  width: 18rem;
+  position: absolute;
+  left: -2rem;
+  bottom: -4rem;
+}

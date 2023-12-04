@@ -1,0 +1,129 @@
+.my-events-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.my-event-logs {
+    width: 100vw;
+    height: 250px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+
+.colum-1-my-events .card-container{
+    min-width: 0rem;
+}
+
+.colum-2-my-events{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 49%;
+    padding: 0.8rem;
+    gap: 1rem;
+}
+
+.colum-1-my-events{
+    width: 51%;
+}
+
+.row-my-events{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: 13rem;
+    background-color: #F2F2F2;
+    border-radius: 1rem;
+    max-width: 25rem;
+    flex-wrap: wrap;
+}
+
+.day-event{
+    border-radius: 2rem;
+    text-decoration: underline;
+}
+
+.calendar{
+    width: 100%;
+}
+
+.day-name{
+    font-weight: 800;
+}
+
+.calendar ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+    padding-top: 1rem;
+}
+
+.first-day{
+    grid-column-start: 4;
+}
+
+.calendar ol li{
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.section-two-container-my-events{
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+    right: 6rem;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    padding: 5rem;
+    bottom: -1.8rem;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+    .row-my-events{
+        max-height: 13rem;
+    }
+
+    .colum-1-my-events .card-container{
+        max-height: 13rem;
+        padding: 1rem;
+        padding-top: 1rem;
+    }
+
+    .colum-1-my-events .card-container button{
+        font-size: 0.8rem;
+    }
+
+    
+    .colum-1-my-events .card-container h5{
+        margin-top: 0.8rem;
+    }
+
+    .section-two-container-my-events{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        color: #000;
+        border-top-left-radius: 4rem;
+        border-top-right-radius: 0rem;
+        padding: 1.7rem;
+        left: 0;
+    }
+  }

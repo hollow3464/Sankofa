@@ -1,0 +1,82 @@
+.happened-me-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.happened-me-title-text{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.happened-me-content-down {
+    padding: 1.5rem;
+}
+
+.happened-me-content-down p{
+    color: #000;
+    font-size: 0.8rem;
+}
+
+.happened-me-btn{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #000;
+}
+
+.happened-me-icon{
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .happened-me-content-up{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 30%;
+        padding: 1rem 1rem 0rem 1rem;
+    }
+    
+    .happened-me-text-content{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .happened-me-img-content{
+        margin-top: 1rem;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 55vh;
+    }
+
+    .happened-me-img2{
+        position: absolute;
+        z-index: -1;
+        height: 25rem;
+    }
+
+    .happened-me-content-down{
+        position: fixed;
+        bottom: 0;
+        background-color: #fff;
+        border-top-right-radius: 1.2rem;
+        border-top-left-radius: 1.2rem;
+        width: 100%;
+        height: 35vh;
+    }
+  }

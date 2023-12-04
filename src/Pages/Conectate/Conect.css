@@ -1,0 +1,26 @@
+.conect-container{
+    padding: 1rem 5rem;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.conect-log{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* .conect-cards{} */
+
+.paper-conect{
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 50rem;
+    bottom: 0;
+}

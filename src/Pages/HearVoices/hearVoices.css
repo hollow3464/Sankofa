@@ -1,0 +1,62 @@
+.hear-voices-container{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hear-voices-container .card-container-img-learn2{
+    width: 2rem;
+}
+
+.hear-voices1-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.hear-voices1-img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-escuchavoces-1{
+    height: 100%;
+    width: 100%;
+}
+
+.hear-voices1-colum{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    top: 2rem;
+    right: 2rem;
+    gap: 0.5rem;
+}
+
+.hear-voices1-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(84, 39, 174, 0.7);
+    padding: 0.2rem 1rem;
+    border-radius: 0.5rem;
+    gap: 0.4rem;
+}
+
+.hear-voices1-content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 1.5rem;
+    bottom: 0;
+}

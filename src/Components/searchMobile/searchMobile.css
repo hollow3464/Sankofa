@@ -1,0 +1,35 @@
+.search-home{
+    display: none;
+}
+
+.search-home-icon{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .search-home{
+        padding: 0 15px;
+        height: 3rem;
+        width: 75vw;
+        max-width: 400px;
+        margin: 1rem 0;
+        background-color: rgba(217, 217, 217, 0.2);
+        border-radius: 0.6rem;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+    .search-home-icon{
+        margin-right: -1rem;
+        width: 4rem;
+        height: 3rem;
+        font-size: 1.3rem;
+        color: white;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+

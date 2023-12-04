@@ -1,0 +1,58 @@
+.unboarding-learn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.unboarding-learn-content{
+    width: 100%;
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+}
+
+.unboarding-learn-content p{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.unboarding-learn-button{
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: #000;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.learn-container{
+    overflow: auto;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+
+.learn-container-row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.learn-container-row2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}

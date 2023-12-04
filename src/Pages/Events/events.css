@@ -1,0 +1,74 @@
+.events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.events-perfil {
+  width: 60px;
+  height: 55px;
+  background-color: #ef8a25;
+  font-size: 35px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -8vh;
+  left: 2rem;
+}
+
+.seleccionar-eventos {
+  width: 100vw;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: start;
+  overflow-x: scroll;
+}
+
+.content-options {
+  display: flex;
+}
+
+.content-options p {
+  padding: 0.1rem 1rem;
+  white-space: nowrap;
+}
+
+.selected-events {
+  text-decoration: underline;
+}
+
+.selection {
+  width: 80%;
+  height: 20rem;
+  overflow-x: scroll;
+}
+
+.selection h4 {
+  margin-bottom: 2rem;
+}
+
+.selection-card-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 100vw;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+@media screen and (max-width: 1024px) {
+  .event-logs p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .select-events-container {
+    align-items: start;
+  }
+}

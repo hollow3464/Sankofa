@@ -1,0 +1,29 @@
+.equality-container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper-equality{
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 50rem;
+    bottom: 0;
+}
+
+.equalityCard-container{
+    min-width: 20rem;
+    max-width: 30rem;
+    width: 45vw;
+    padding: 2rem 2rem;
+    background-color: white;
+    color: #13100F;
+    border-radius: 1.5rem;
+}
+
+.equalityCard-container p{
+    font-size: 13px;
+}

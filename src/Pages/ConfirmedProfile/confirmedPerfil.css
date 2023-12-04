@@ -1,0 +1,62 @@
+.row-confirmed-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.col1 {
+    margin-top: 1.5rem;
+}
+
+.confirmed-container {
+    margin-left: 3rem;
+    width: 90vw;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.profile-confirmed-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.profile-confirmed-conteiner .btn-perfil {
+    width: 9rem;
+    height: 9rem;
+    font-size: 5.5rem;
+}
+
+.logo-confirmed {
+    width: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+
+.form-confirmed-container {
+    margin-top: 3rem;
+    margin-left: 4.5rem;
+}
+
+.row-completed {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.row-completed input {
+    width: 12.9rem;
+}
+
+.form-inputs-col1 .input-filled {
+    width: 100%;
+}
+
+.col {
+    width: 20rem;
+}
+
+.btn-orange {
+    margin-top: 2rem;
+}

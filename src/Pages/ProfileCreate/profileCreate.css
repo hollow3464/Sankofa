@@ -1,0 +1,104 @@
+.container-perfil {
+    margin-left: 3rem;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.avatar-picker {
+    min-width: 500px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.avatar-picker h5 {
+    background-color: #5427AE;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.logo-perfil {
+    width: 4rem;
+    margin-bottom: 2rem;
+}
+
+.form-perfil {
+    width: 40vw;
+    min-width: 350px;
+    max-width: 600px;
+    /* border: 10px solid #fff; */
+}
+
+.row-perfil {
+    /* border: 10px solid #fff; */
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.row-perfil div {
+    width: 100%;
+}
+
+.fecha {
+    min-width: 100px;
+    width: 60%;
+    max-width: 9rem;
+}
+
+.btn-perfil {
+    margin-bottom: 1rem;
+    background-color: #EF8A25;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: none;
+    color: #fff;
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+
+.select-filled {
+    padding: 0.7rem 0;
+    min-width: 100px;
+    width: 10vw;
+    max-width: 200px;
+    border-radius: 0.4rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 0.5;
+    text-align: center;
+}
+
+.select-filled option {
+    color: black;
+}
+
+.paper-perfil1 {
+    height: 1rem;
+    position: absolute;
+    right: 0;
+    bottom: -4rem;
+}
+
+.group-perfil {
+    width: 20rem;
+    position: absolute;
+    right: 12rem;
+    bottom: 0;
+}
+
+.building-perfil {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

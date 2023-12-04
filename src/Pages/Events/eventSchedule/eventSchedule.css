@@ -1,0 +1,25 @@
+.eventSchedule-container {
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.eventSchedule-content{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.paper-events{
+    width: 100vw;
+    height: 10rem;
+    position: absolute;
+    bottom: 0rem;
+}

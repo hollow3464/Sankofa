@@ -1,0 +1,34 @@
+.conectLog-container {
+    width: 26rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.conectLog-images {
+    width: 20rem;
+    position: relative;
+}
+.conect-rectangle {
+    width: 26rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.building-conectLog{
+    width: 16rem;
+    position: absolute;
+    left: -3.5rem;
+    bottom: -1.7rem;
+}
+
+.persons-conectLog {
+    width: 15rem;
+    position: absolute;
+    right: -2rem;
+    bottom: -6.5rem;
+}

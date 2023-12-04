@@ -1,0 +1,39 @@
+.reportLog-container{
+    width: 20rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.reportLog-images {
+    width: 20rem;
+    position: relative;
+}
+
+.report-polygon{
+    width: 17rem;
+    height: 3.5rem;
+    background-color: #5427AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(100% 85%,
+                   100% 0%,
+                   0% 15%,
+                    0% 100%);
+}
+
+.building-report{
+    position: absolute;
+    left: -1.6rem;
+    bottom: -3rem;
+}
+
+.book-report {
+    z-index: 2;
+    position: absolute;
+    right: 2rem;
+    bottom: -1.8rem;
+}

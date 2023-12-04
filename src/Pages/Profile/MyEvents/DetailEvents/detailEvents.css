@@ -1,0 +1,102 @@
+.detail-events-container{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+.detail-events-container .my-event-logs{
+    width: 60%;
+    height: 11rem;
+}
+
+.footer-detail-events-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.section-two-container{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+    right: 6rem;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    padding: 5rem;
+    bottom: -1.8rem;
+    overflow: auto;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+
+    .detail-events-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+    }
+
+    
+    .my-event-logs{
+        height: 24%;
+    }
+    .my-event-logs .building-eventsLog{
+        height: 12rem;
+    }
+
+    .my-event-logs .component-polygon{
+        height: 3.4rem;
+    }
+
+    .link-card-events3{
+        font-size: 3rem;
+    }
+
+
+    .section-two-container{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        color: #000;
+        border-top-left-radius: 4rem;
+        border-top-right-radius: 0rem;
+        padding: 2.5rem;
+        left: 0;
+    }
+
+    .section-two-container p{
+        font-size: 12px;
+    }
+
+    
+    .footer-detail-events-container img{
+        display: none;
+    }
+
+    .footer-detail-events-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        align-items: start;
+        gap: 0rem;
+    }
+
+    .paper-perfil1{
+        display: none;
+    }
+  }
+

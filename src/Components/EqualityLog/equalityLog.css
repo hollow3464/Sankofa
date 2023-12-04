@@ -1,0 +1,47 @@
+.equalityLog-container {
+    width: 20rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+.equalityLog-images {
+    width: 20rem;
+    position: relative;
+}
+.equality-rectangle {
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.equality-polygon{
+    margin-top: 0.2rem;
+    width: 20rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0% 0%,
+                   100% 15%,
+                   100% 100%,
+                    0% 85%);
+}
+
+.building-equalityLog{
+    width: 16rem;
+    position: absolute;
+    left: -5.5rem;
+    bottom: -1.7rem;
+}
+
+.persons-equalityLog {
+    width: 13rem;
+    position: absolute;
+    right: 2rem;
+    bottom: -5.5rem;
+}

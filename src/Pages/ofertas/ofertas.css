@@ -1,0 +1,40 @@
+.ofertas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ofertas-perfil {
+  width: 60px;
+  height: 55px;
+  background-color: #ef8a25;
+  font-size: 35px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -8vh;
+  left: 2rem;
+}
+
+.seleccionar-eventos {
+  width: 100vw;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: start;
+  overflow-x: scroll;
+}
+
+.content-options {
+  display: flex;
+}
+
+.content-options p {
+  padding: 0.1rem 1rem;
+  white-space: nowrap;
+}
+
+.selected-events {
+  text-decoration: underline;
+}

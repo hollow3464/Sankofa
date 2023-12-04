@@ -1,0 +1,27 @@
+.onboarding-ofertas-container {
+  padding: 0 2rem;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.paper-onboarding-events {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -5;
+}
+
+.icon-back-home {
+  position: absolute;
+  left: 1.5rem;
+  top: 0rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}

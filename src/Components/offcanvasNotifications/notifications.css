@@ -1,0 +1,102 @@
+.notifications-container{
+    min-height: 650px;
+    height: 85vh;
+    width: 45%;
+    position: fixed;
+    z-index: 500;
+    top: 10vh;
+    right: 0;
+    background-color: #fff;
+    transition: 0.5s;
+    padding-top: 7rem;
+    border-radius: 2rem 0% 0% 2rem;
+    box-shadow: 0px 0px 10px 5px #262222;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    transition: all 0.3s;
+    padding-bottom: 2rem;
+}
+
+.notifications-container-off{
+    min-height: 650px;
+    height: 90vh;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 10vh;
+    right: 0;
+    background-color: #fff;
+    transition: 0.5s;
+    padding-top: 7rem;
+    border-radius: 2rem 0% 0% 2rem;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    transition: all 0.1s;
+    overflow-x: hidden;
+}
+
+.notifications-container .closebtn {
+  display: flex;
+  left: 0;
+  color: #000;
+  position: absolute;
+  top: 3rem;
+  font-size: 2rem;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+  .notifications-containers-nav{
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+    max-height: 14rem;
+    transition: 0.5s;
+    border-radius: 1rem;
+  }
+
+  .notifications-containers-nav a{
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 576px) {
+    .notifications-container{
+      width: 100%;
+      background-color: #000;
+      height: 100%;
+      top: 0;
+  }
+  .notifications-container .closebtn {
+    color: #fff;
+  }
+
+  .notifications-containers-nav{
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+    max-height: 20rem;
+    transition: 0.5s;
+    border-radius: 1rem;
+  }
+  }
